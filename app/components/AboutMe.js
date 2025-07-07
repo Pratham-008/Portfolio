@@ -2,7 +2,7 @@ export default function AboutMe() {
   return (
     <section className=" p-6 flex flex-col gap-6 max-w-xl mx-auto ">
       <div className="text-zinc-700 dark:text-zinc-300 text-base leading-relaxed text-center">
-        Hello! I'm{" "}
+        Hello! I&apos;m{" "}
         <span className="font-bold text-zinc-700 dark:text-zinc-300">
           Patel Prathamkumar Kanubhai
         </span>

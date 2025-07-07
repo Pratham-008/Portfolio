@@ -18,7 +18,7 @@ export default function ThemeToggle() {
   return (
     <div className="flex flex-col gap-5">
       <div className="flex justify-between">
-        <span className="text-xl font-bold">Hey, I'm Pratham</span>
+        <span className="text-xl font-bold">Hey, I&apos;m Pratham</span>
         <button
           onClick={() => setDark(!dark)}
           className="hover:bg-gray-200 dark:hover:bg-zinc-800 p-2 rounded-md transition-colors"
