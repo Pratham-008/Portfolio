@@ -28,8 +28,9 @@ export default function ThemeToggle() {
       </div>
       <div>
         <p className="text-sm text-zinc-600 dark:text-zinc-300">
-          Software Engineer from London. Open to work. Contact me below.
-          Currently building Zero and oss.now.
+          Aspiring MERN Stack Developer seeking a challenging software
+          development role where I can contribute to scalable web applications
+          and continue learning modern tech stacks.
         </p>
       </div>
       <div className="flex gap-3 items-center">
@@ -58,10 +59,11 @@ export default function ThemeToggle() {
       <div className="flex gap-1 items-center">
         <span>Resume</span>
         <a href="/Resume.pdf" target="_blank">
-        <i
-          className="fa fa-file-text fa-md text-zinc-400 hover:text-black cursor-pointer dark:hover:text-white"
-          aria-hidden="true"
-        ></i></a>
+          <i
+            className="fa fa-file-text fa-md text-zinc-400 hover:text-black cursor-pointer dark:hover:text-white"
+            aria-hidden="true"
+          ></i>
+        </a>
       </div>
     </div>
   );

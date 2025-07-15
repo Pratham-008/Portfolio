@@ -2,7 +2,7 @@ import ProjectTemp from "./ProjectTemp";
 
 export default function Projects() {
   return (
-    <div className="flex flex-col gap-4">
+    <div className="py-2 flex flex-col gap-4">
       <ProjectTemp
         title="Class-Room Attendance & Feedback System"
         techno="HTML /  CSS /  HTML5 /  Node.js /  Express.js /  SQL / MySQL"
