@@ -9,7 +9,7 @@ export default function Slider() {
   const [isactive, setisactive] = useState("projects");
 
   return (
-    <div className="flex flex-col gap-5">
+    <div className="flex flex-col py-2 gap-3">
       <div className="flex gap-3 items-center">
         <div
           onClick={() => setisactive("projects")}
@@ -50,7 +50,7 @@ export default function Slider() {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 50 }}
-              transition={{ duration: 0.20 }}
+              transition={{ duration: 0.2 }}
             >
               <Projects />
             </motion.div>
@@ -61,7 +61,7 @@ export default function Slider() {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 50 }}
-              transition={{ duration: 0.20 }}
+              transition={{ duration: 0.2 }}
             >
               <Tools />
             </motion.div>
@@ -72,7 +72,7 @@ export default function Slider() {
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 50 }}
-              transition={{ duration: 0.20 }}
+              transition={{ duration: 0.2 }}
             >
               <AboutMe />
             </motion.div>
