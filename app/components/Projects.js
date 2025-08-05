@@ -22,6 +22,12 @@ export default function Projects() {
         desc="Created a no-code website builder that allows users to generate and preview websites live in-browser with auto file structure generation and code preview.  "
         gitlink="https://github.com/Pratham-008/website-to-create-website-"
       />
+      <ProjectTemp
+        title="Socket.IO Based Chat Application "
+        techno="React.js /  Tailwind CSS /  JavaScript / WebSockets / Cloudinary / MongoDB / Express.js /  Node.js / Daisyui / JSON Web Tokens (JWT)"
+        desc="Built a MERN stack chat app with JWT authentication, real-time messaging via Socket.IO, image sharing, and profile picture upload. Designed a responsive UI using Daisyui and implemented secure REST APIs for user and message handling."
+        gitlink="https://github.com/Pratham-008/Chatapp"
+      />
     </div>
   );
 }
