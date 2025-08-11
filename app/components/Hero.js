@@ -58,7 +58,7 @@ export default function ThemeToggle() {
       </div>
       <div className="flex gap-1 items-center">
         <span>Resume</span>
-        <a href="/Resume.pdf" target="_blank">
+        <a href="/Pratham Patel Resume.pdf" target="_blank">
           <i
             className="fa fa-file-text fa-md text-zinc-400 hover:text-black cursor-pointer dark:hover:text-white"
             aria-hidden="true"
