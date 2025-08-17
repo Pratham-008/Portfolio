@@ -35,6 +35,7 @@ export default function AboutMe() {
           <li>QR Code-based Attendance System</li>
           <li>Multi-Vendor E-Commerce Platform</li>
           <li>AI-powered Website Builder with Grok-API</li>
+           <li>Socket.IO Based Real Time Chat Application</li>
         </ul>
       </div>
       <div className="text-zinc-700 dark:text-zinc-300 text-base leading-relaxed text-center italic">

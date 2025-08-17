@@ -15,7 +15,6 @@ export default function Projects() {
         desc="Built a multi-vendor e-commerce platform with vendor product management, customer shopping cart, and secure payments using Razor-pay. Includes an admin panel for managing products and pricing. Developed with React, Next.js, MongoDB, and styled-components."
         gitlink="https://github.com/Pratham-008/E-commerce-client"
         livelink="https://e-commerce-client-hazel.vercel.app/"
-        
       />
       <ProjectTemp
         title="AI-Powered Website Builder "
@@ -24,7 +23,7 @@ export default function Projects() {
         gitlink="https://github.com/Pratham-008/website-to-create-website-"
       />
       <ProjectTemp
-        title="Socket.IO Based Chat Application "
+        title="Socket.IO Based Real Time Chat Application"
         techno="React.js /  Tailwind CSS /  JavaScript / WebSockets / Cloudinary / MongoDB / Express.js /  Node.js / Daisyui / JSON Web Tokens (JWT)"
         desc="Built a MERN stack chat app with JWT authentication, real-time messaging via Socket.IO, image sharing, and profile picture upload. Designed a responsive UI using Daisyui and implemented secure REST APIs for user and message handling."
         gitlink="https://github.com/Pratham-008/Chatapp"
