@@ -16,7 +16,7 @@ export default function ThemeToggle() {
   }, [dark]);
 
   return (
-    <div className="flex flex-col gap-4npm">
+    <div className="flex flex-col gap-4 ">
       <div className="flex justify-between">
         <span className="text-xl font-bold">Hey, I&apos;m Pratham</span>
         <button
