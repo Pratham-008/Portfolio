@@ -15,6 +15,7 @@ export default function Projects() {
         desc="Built a multi-vendor e-commerce platform with vendor product management, customer shopping cart, and secure payments using Razor-pay. Includes an admin panel for managing products and pricing. Developed with React, Next.js, MongoDB, and styled-components."
         gitlink="https://github.com/Pratham-008/E-commerce-client"
         livelink="https://e-commerce-client-hazel.vercel.app/"
+        
       />
       <ProjectTemp
         title="AI-Powered Website Builder "
