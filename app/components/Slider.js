@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import Projects from "./Projects";
 import Tools from "./Tools";
 import AboutMe from "./AboutMe";
+import Experience from "./Experience";
 
 export default function Slider() {
   const [isactive, setisactive] = useState("projects");
@@ -20,6 +21,16 @@ export default function Slider() {
           }
         >
           <span>Projects</span>
+        </div>
+        <div
+          onClick={() => setisactive("experience")}
+          className={
+            isactive === "experience"
+              ? "font-bold cursor-pointer"
+              : "font-normal cursor-pointer"
+          }
+        >
+          <span>Experience</span>
         </div>
         <div
           onClick={() => setisactive("tools")}
@@ -53,6 +64,17 @@ export default function Slider() {
               transition={{ duration: 0.2 }}
             >
               <Projects />
+            </motion.div>
+          )}
+          {isactive === "experience" && (
+            <motion.div
+              key="experience"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ duration: 0.2 }}
+            >
+              <Experience />
             </motion.div>
           )}
           {isactive === "tools" && (
